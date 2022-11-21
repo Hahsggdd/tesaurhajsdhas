@@ -6,12 +6,12 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "LISTENING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "/help | SPARK", // Your bot status message
+    MESSAGE: "/help | LP", // Your bot status message
   },
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
-    baseURL: "https://spark.ryannpw.repl.co", // base url
-    failureURL: "https://spark.ryannpw.repl.co", // failure redirect url
+    enabled: false, // enable or disable dashboard
+    baseURL: "", // base url
+    failureURL: "", // failure redirect url
     port: "80", // port to run the bot on
   },
   INTERACTIONS: {
